@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(19, 8, 8);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color:rgb(20, 22, 22);
+    font-size: 1.5rem;
+
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+    color: aliceblue;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:whitesmoke;
+
+}
+nav ul li a:hover{
+    font-size: 1.3rem;
+    color:rgb(186, 230, 105);
+
+}
+.left{
+color: aliceblue;
+}
+.right{
+    color: aliceblue;
+}
+.banner{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+    background-image: url("https://hungerbay.com/assets/images/b6.jpg");
+    height: 88vh;
+    text-align: center;
+    line-height: 2.2rem;
+    text-decoration: wavy;
+}
+.banner button{
+    background-color: rgb(252, 241, 87);
+    border: 2rem;
+    font-size: large;
+}
+.about{
+    
+    display: flex;
+    color: aliceblue;
+    border-color: aqua;
+}
+.about .left{
+    width: 60%;
+    text-align: center;
+    margin-top: 4%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    line-height: 2.4rem;
+    
+}
+#features1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#features1 .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 150px 0;
+
+}
+#features1 .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 60, 220, 0.1) ;
+}
+#features1 .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#features1 .fe-box h4{
+    padding:9px 8px 6px 9px;
+    line-height: 1;
+    border-radius: 4px;
+    color: black;
+    background-color: lightcoral;
+}
+#features1 .fe-box:nth-child(2) h4{
+    background-color: beige;
+}
+#features1 .fe-box:nth-child(3) h4{
+    background-color: lightslategray;
+}
+#features1 .fe-box:nth-child(4) h4{
+    background-color: lightyellow;
+}
+#features1 .fe-box:nth-child(5) h4{
+    background-color: lightgreen;
+}
+.contact{
+    display: wrap;
+}
+.contact{
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgb(249, 254, 255);
+    text-align: center;
+    height: 40vh;
+    display: wrap;
+    
+    
+    background-color: rgb(9, 2, 46);
+}
+.contact img{
+    height: 10vh;
+}
+.contact .down{
+    display:flex;
+
+}
+.insta{
+    width:30%;
+}
+.twitter{
+    width:30%;
+}
+.gmail{
+    width:30%;
+}
+.facebook{
+    width:30%;
+}
